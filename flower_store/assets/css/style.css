@@ -1,0 +1,278 @@
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/all_background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100%;
+}
+
+.img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container_menu {
+    margin: 0px auto;
+    max-width: 1400p;
+    width: 100%;
+    padding: 0 40px;
+}
+
+/* Navigation Section */
+
+header {
+    background-color: #c87e6b;
+    padding: 1.5rem 0;
+}
+
+header .container_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+.menu li a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.border a {
+    border: 2px solid white;
+    border-radius: 10rem;
+    padding: 0.2rem  0.4rem;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8%;
+}
+
+.icon li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Body One  */
+
+.section_content.section_home .container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.section_content .container {
+    position: relative;
+}
+
+.container_background img {
+    width: 100%;
+}
+
+.section_content .container .content_info {
+    position: absolute;
+    right: 4%;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 45%;
+    text-align: center;
+}
+
+.section_content .container .content_info {
+    right: auto;
+}
+
+.content_title {
+    font-size: 60px;
+    padding-bottom: 1rem;
+}
+
+.content_description-1 {
+    font-size: 25px;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+.content_description-2 {
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+}
+
+.content_button-1 {
+    font-size: 15px;
+    display: inline-block;
+    background-color: rgb(119, 115, 115);
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.content_button-2 {
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+
+/* Body Two */
+
+.stats-section {
+    background: #7a4f2b;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.stat h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.stat p {
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+/* Body Three */
+
+.top-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 55px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #996633;
+    font-size: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.product-card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #333;
+}
+
+.product-info p {
+    font-size: 20px;
+    color: #666;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #555;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.slider-controls {
+    margin-top: 20px;
+}
+
+.slider-controls button {
+    background: #ccc;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.slider-controls button:hover {
+    background: #999;
+}
+
+/* Body Four */
+
+/* Body Five */
+
+
